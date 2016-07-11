@@ -1,6 +1,9 @@
 # Starbound Color Transform
 Color Transform is tech mod that allows you to set up one or multiple color transformations for specified sets of colors.
 
+![Demo](https://raw.githubusercontent.com/Silverfeelin/Starbound-ColorTransform/master/readme/demo.gif "Color Transform Demo")  
+*Demo showing me randomly activating several transformations.*
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
