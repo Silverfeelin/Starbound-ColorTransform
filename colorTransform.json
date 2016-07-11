@@ -5,7 +5,7 @@
   },
   "transformations" : [
     {
-      "name" : "Blue",
+      "name" : "Blue Hair",
       "duration" : 120,
       "colors" : {
         "CD1C38" : "199AFF",
@@ -14,7 +14,7 @@
       }
     },
     {
-      "name" : "Orchid",
+      "name" : "Orchid Hair",
       "duration" : 60,
       "colors" : {
         "CD1C38" : "BA77C6",
