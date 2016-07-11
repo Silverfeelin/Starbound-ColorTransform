@@ -14,19 +14,20 @@ function colorTransform.update(args)
   sb.setLogMap("^orange;Color Transform^reset;", "^yellow;Press '" .. colorTransform.config.keys.activate .. "' to " .. debugActivate .. " ^orange;" .. colorTransform.logName .. "^yellow;.^reset;")
   local colorFound = false
   local dir = ""
-
+  local active = false
   for orig,color in pairs(colorTransform.colors) do
-    if color.stepsLeft > 0 then
       local current = {}
       color.stepsLeft = color.stepsLeft - 1
       for i,v in ipairs(color.current) do
-        color.current[i] = colorTransform.clamp(v + color.steps[i], 0, 255)
+        if color.stepsLeft > 0 then
+          active = true
+          color.current[i] = colorTransform.clamp(v + color.steps[i], 0, 255)
+        end
         current[i] = colorTransform.clamp(math.ceil(color.current[i]), 0, 255)
       end
       dir = dir .. ";" .. orig .. "=" .. colorTransform.rgb2hex(current)
-    end
   end
-  if dir ~= "" then
+  if active then
     sb.setLogMap("^orange;Color Transform^reset;", "^yellow;A transformation is active.^reset;")
     tech.setParentDirectives("?replace" .. dir)
   end
