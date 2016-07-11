@@ -1,0 +1,26 @@
+{
+  "keys" : {
+    "activate" : "g",
+    "toggle" : "h"
+  },
+  "transformations" : [
+    {
+      "name" : "Blue",
+      "duration" : 2,
+      "colors" : {
+        "CD1C38" : "199AFF",
+        "982441" : "1377C4",
+        "69243F" : "0E5891"
+      }
+    },
+    {
+      "name" : "Orchid",
+      "duration" : 60,
+      "colors" : {
+        "CD1C38" : "BA77C6",
+        "982441" : "945E9E",
+        "69243F" : "704777"
+      }
+    }
+  ]
+}
