@@ -6,7 +6,7 @@
   "transformations" : [
     {
       "name" : "Blue",
-      "duration" : 2,
+      "duration" : 120,
       "colors" : {
         "CD1C38" : "199AFF",
         "982441" : "1377C4",
