@@ -47,6 +47,8 @@ The expected parameters, for each transformation, are described below.
 Don't forget that each table entry should be separated with a comma! You can confirm the syntax of the configuration by using a [JSON Linter](http://helmet.kafuka.org/sbmods/json/).
 
 #### Activating transformations
+*Note: In a nightly update, tech keys G and H were unbound. If your keys don't do anything, please make sure these keys are bound in `/storage/starbound.config`. You can use and modify the contents of the `PlayerTechAction1` parameter to set up the other two keys.*
+
 By default, two keys are used by this tech mod: `G` and `H`.  
 If you'd like to set up more specific activation keys, you can define them in the `colorTransform.json` file. Any [Keybinds-compatible syntax options](https://github.com/Silverfeelin/Starbound-Keybinds#syntax-options) are supported.
 
