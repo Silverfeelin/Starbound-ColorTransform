@@ -1,3 +1,12 @@
 {
-  "name" : "Color Transform"
+  "name" : "Color Transform",
+  "friendlyName" : "Color Transformation Tech",
+  "priority" : 0,
+  "version" : "1.0",
+  "author" : "Silverfeelin",
+  "description" : "Allows for customizable color transformations through a tech script.
+
+For usage instructions, see: ^#61b3de;https://github.com/Silverfeelin/Starbound-ColorTransform^reset;",
+  "requires" : [],
+  "includes" : []
 }
