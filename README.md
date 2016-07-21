@@ -22,7 +22,9 @@ Color Transform is tech mod that allows you to set up one or multiple color tran
  * In singleplayer, use `/enabletech dash` and `/spawnitem techconsole` with your cursor pointed near your character. Place the tech console down and activate the tech from the tech console.
 * Bind `ColorTransform Activate` and `ColorTransform Toggle` in the controls menu. In `/debug`, it will show *Press 'g'* regardless of your choice.
  * The actual bind used is `PlayerTechAction2`. Other mods that use this bind may cause conflicts.
- 
+
+## Usage
+
 #### Setting up transformations
 To set up specific color transformations, you must first know what colors you want to transform. You can do so by using the color picker of whatever image editor you prefer ([Paint.NET](http://www.getpaint.net/index.html), [GIMP](https://www.gimp.org/), other).  
  * For character colors, you can print screen your character in your inventory.
