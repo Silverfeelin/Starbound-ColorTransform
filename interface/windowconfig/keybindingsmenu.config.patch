@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/keyActions/player/-",
+    "value" : { "label" : "^orange;ColorTransform^reset; Activate", "action" : "PlayerTechAction2" }
+  },
+  {
+    "op" : "add",
+    "path" : "/keyActions/player/-",
+    "value" : { "label" : "^orange;ColorTransform^reset; Toggle", "action" : "PlayerTechAction3" }
+  }
+]

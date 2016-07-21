@@ -20,7 +20,9 @@ Color Transform is tech mod that allows you to set up one or multiple color tran
  * Remove the existing folder beforehand if it already exists. It is recommended to save a copy of the `colorTransform.json` file before you do so.
 * Activate the `dash` tech on your character.
  * In singleplayer, use `/enabletech dash` and `/spawnitem techconsole` with your cursor pointed near your character. Place the tech console down and activate the tech from the tech console.
-
+* Bind `ColorTransform Activate` and `ColorTransform Toggle` in the controls menu. In `/debug`, it will show *Press 'g'* regardless of your choice.
+ * The actual bind used is `PlayerTechAction2`. Other mods that use this bind may cause conflicts.
+ 
 #### Setting up transformations
 To set up specific color transformations, you must first know what colors you want to transform. You can do so by using the color picker of whatever image editor you prefer ([Paint.NET](http://www.getpaint.net/index.html), [GIMP](https://www.gimp.org/), other).  
  * For character colors, you can print screen your character in your inventory.
@@ -47,7 +49,7 @@ The expected parameters, for each transformation, are described below.
 Don't forget that each table entry should be separated with a comma! You can confirm the syntax of the configuration by using a [JSON Linter](http://helmet.kafuka.org/sbmods/json/).
 
 #### Activating transformations
-*Note: In a nightly update, tech keys G and H were unbound. If your keys don't do anything, please make sure these keys are bound in `/storage/starbound.config`. You can use and modify the contents of the `PlayerTechAction1` parameter to set up the other two keys.*
+*Note: In a nightly update, tech keys G and H were unbound. If your keys don't do anything, please make sure these keys are bound (see [Installation](#installation)).*
 
 By default, two keys are used by this tech mod: `G` and `H`.  
 If you'd like to set up more specific activation keys, you can define them in the `colorTransform.json` file. Any [Keybinds-compatible syntax options](https://github.com/Silverfeelin/Starbound-Keybinds#syntax-options) are supported.
